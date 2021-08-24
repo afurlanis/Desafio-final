@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+body{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+.container{
+    border: 0.5px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0.3px black;
+    padding: 2rem;
+    background: white;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.thead{
+    background: gainsboro;
+}
+
+tbody tr:nth-child(2n){
+    background-color: ghostwhite;
+}
+
+tbody tr:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
